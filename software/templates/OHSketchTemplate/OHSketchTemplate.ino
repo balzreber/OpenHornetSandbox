@@ -45,7 +45,7 @@
  * @file OHSketchTemplate.ino
  * @author Balz Reber
  * @date 22.11.2019
- * @brief This is the OpenHornet Sketch Template
+ * @brief This is the OpenHornet Sandbox Sketch Template
  *
  * @details This is the Open Hornet Sketch Template. It should be used as a starting point for every new sketch.
  * Please copy the whole OHSketchTemplate folder to start. As it also contains some test skip files needed for travis.
