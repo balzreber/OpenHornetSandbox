@@ -14,8 +14,8 @@ This is the API documentation of the OpenHornet Software. You will find a docume
 
 | Repo  | State  |
 |:----------|:----------|
-| Sandbox   | [![Build Status](https://travis-ci.org/balzreber/OpenHornetSandbox.svg?branch=software)](https://travis-ci.org/balzreber/OpenHornetSandbox)    |
-| Main Repo | [![Build Status](https://travis-ci.org/jrsteensen/OpenHornet.svg?branch=software)](https://travis-ci.org/jrsteensen/OpenHornet)   |
+| Sandbox   | ![Build Status](https://travis-ci.org/balzreber/OpenHornetSandbox.svg?branch=software)    |
+| Main Repo | ![Build Status](https://travis-ci.org/jrsteensen/OpenHornet.svg?branch=software)   |
 
 
 ## Links
