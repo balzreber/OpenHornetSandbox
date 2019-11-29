@@ -1,7 +1,7 @@
 # OpenHornet API Documentation
 
 
-![OH logo](https://raw.githubusercontent.com/jrsteensen/OpenHornet/master/images/Logo/open_hornet_horizontal_final.png)
+![OH logo](https://raw.githubusercontent.com/balzreber/OpenHornetSandbox/master/images/Logo/open_hornet_horizontal_500x79.png)
 
 The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS).
 
@@ -10,6 +10,12 @@ The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consis
 
 This is the API documentation of the OpenHornet Software. You will find a documentation of all the Files, Classes and Functions of the OpenHornet Software here. The documentation was generated using Doxygen. For more information and documentation, visit the links below.
 
+## Current Software State
+
+| Repo  | State  |
+|:----------|:----------|
+| Sandbox   | [![Build Status](https://travis-ci.org/balzreber/OpenHornetSandbox.svg?branch=software)](https://travis-ci.org/balzreber/OpenHornetSandbox)    |
+| Main Repo | [![Build Status](https://travis-ci.org/jrsteensen/OpenHornet.svg?branch=software)](https://travis-ci.org/jrsteensen/OpenHornet)   |
 
 
 ## Links
