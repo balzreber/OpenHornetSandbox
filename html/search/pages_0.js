@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['api_20documentation',['API Documentation',['../index.html',1,'']]]
+  ['openhornet_20api_20documentation',['OpenHornet API Documentation',['../index.html',1,'']]]
 ];
