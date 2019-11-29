@@ -65,13 +65,14 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">OHSketchTemplate.ino File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the OpenHornet Sandbox Sketch Template.  
+<p>This is the OpenHornet Sketch Template.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;DcsBios.h&quot;</code><br />
 </div><table class="memberdecls">
@@ -88,12 +89,17 @@ Functions</h2></td></tr>
 <tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32fec63d6b9a9412e5ab63d1c407c558"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_o_h_sketch_template_8ino.html#a32fec63d6b9a9412e5ab63d1c407c558">sampleFunction</a> (int myParam1, int myParam2)</td></tr>
 <tr class="separator:a32fec63d6b9a9412e5ab63d1c407c558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a3c3d396226176a9a06fbc1aeff3ef61d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_o_h_sketch_template_8ino.html#a3c3d396226176a9a06fbc1aeff3ef61d">globalVar</a></td></tr>
+<tr class="separator:a3c3d396226176a9a06fbc1aeff3ef61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This is the OpenHornet Sandbox Sketch Template. </p>
+<div class="textblock"><p>This is the OpenHornet Sketch Template. </p>
 <dl class="section author"><dt>Author</dt><dd>Balz Reber </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>22.11.2019</dd></dl>
-<p>This is the Open Hornet Sketch Template. It should be used as a starting point for every new sketch. Please copy the whole OHSketchTemplate folder to start. As it also contains some test skip files needed for travis. </p>
+<p>This is the Open Hornet Sketch Template. It should be used as a starting point for every new sketch. Please copy the whole OHSketchTemplate folder to start. As it also contains some test skip files needed for travis. After that, please replace all the @tags with your own content. </p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aa725f7230d4ca9df101e077123635e8d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa725f7230d4ca9df101e077123635e8d">&#9670;&nbsp;</a></span>DCSBIOS_IRQ_SERIAL</h2>
@@ -106,7 +112,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set DCS Bios to use irq serial </p>
+<p>Set DCS Bios to use IRQ (Interrupt Request) Serial </p>
 
 </div>
 </div>
@@ -125,7 +131,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>DCS Bios library include Arduino Setup Function</p>
+<p>Arduino Setup Function</p>
 <p>Arduino standard Setup Function. Code who should be executed only once at the programm start, belongs in this function. </p>
 
 </div>
@@ -175,10 +181,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>A brief description on a single line, ended by a period or blank line.</p>
-<p>A longer comment, which may stretch over several lines and may include other things like:</p><ul>
-<li>a list like this</li>
-<li>special markup like below</li>
+<p>A longer comment, which may stretch over several lines and may include other things like: Lists:</p><ul>
+<li>list points</li>
+<li>nested list points</li>
+<li>more list points</li>
 </ul>
+<h1>Headers Level 1</h1>
+<h2>Headers Level 2</h2>
+<h3>Headers Level 3</h3>
+<blockquote class="doxtable">
+<p>Block quotes </p>
+</blockquote>
+<p><em>Emphasis</em> <em>Emphasis</em></p>
+<p><code>code()</code></p>
+<p>even Tables are supported: </p><table class="doxtable">
+<tr>
+<th>First Header </th><th>Second Header  </th></tr>
+<tr>
+<td>Content Cell </td><td>Content Cell </td></tr>
+<tr>
+<td>Content Cell </td><td>Content Cell </td></tr>
+</table>
+<p>Links: <a href="http://www.doxygen.nl/manual/markdown.html">More about markdown support</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">myParam1</td><td>Description of 1st parameter. </td></tr>
@@ -187,6 +211,22 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Description of returned value. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a3c3d396226176a9a06fbc1aeff3ef61d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c3d396226176a9a06fbc1aeff3ef61d">&#9670;&nbsp;</a></span>globalVar</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int globalVar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>DCS Bios library include This is a global variable named globalVar </p>
 
 </div>
 </div>
