@@ -49,7 +49,7 @@
  *
  * @details This is the Open Hornet Sketch Template. It should be used as a starting point for every new sketch.
  * Please copy the whole OHSketchTemplate folder to start. As it also contains some test skip files needed for travis.
- * After that, please replace all the \@tags with your own content.
+ * After that, delete what you dont need (the globalVar and sampleFunction) and replace all the \@tags with your own content.
  */
 
 /**
@@ -57,9 +57,6 @@
  */
 #define DCSBIOS_IRQ_SERIAL
 
-/**
- * DCS Bios library include
- */
 #include "DcsBios.h"
 
 /**
