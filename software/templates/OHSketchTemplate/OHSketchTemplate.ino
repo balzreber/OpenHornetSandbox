@@ -46,6 +46,7 @@
  * @author Balz Reber
  * @date 22.11.2019
  * @version 0.0.1 (untested)
+ * @warning This Sketch is untested
  * @brief This is the OpenHornet Sketch Template
  *
  * @details This is the Open Hornet Sketch Template. It should be used as a starting point for every new sketch.
