@@ -57,7 +57,7 @@
  **************************************************************************************/
 
 /**
- * @file RS485_BUS_MASTER/RS485_BUS_MASTER.ino
+ * @file RS485_BUS_MASTER.ino
  * @author Balz Reber
  * @date 17.12.2019
  * @brief Sketch for the RS485 Bus Master which controlls a chain of RS485 Slaves
