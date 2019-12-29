@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['openhornet_20api_20documentation',['OpenHornet API Documentation',['../index.html',1,'']]],
-  ['ohsketchtemplate_2eino',['OHSketchTemplate.ino',['../_o_h_sketch_template_8ino.html',1,'']]]
+  ['globalvar',['globalVar',['../_o_h_sketch_template_8ino.html#a3c3d396226176a9a06fbc1aeff3ef61d',1,'OHSketchTemplate.ino']]]
 ];
