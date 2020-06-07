@@ -32,6 +32,7 @@ before_install:
 install:
 #   - arduino --install-library "Adafruit ILI9341","Adafruit GFX Library"
   - if [ ! -d "$HOME/arduino_ide/libraries/dcs-bios-arduino-library-0.2.11" ]; then git clone https://github.com/dcs-bios/dcs-bios-arduino-library.git $HOME/arduino_ide/libraries/dcs-bios-arduino-library-0.2.11; fi
+  - if [ ! -d "$HOME/arduino_ide/libraries/TCA9534" ]; then git clone https://github.com/balzreber/TCA9534.git $HOME/arduino_ide/libraries/TCA9534; fi
 
 script:
    - python run-clang-format.py -r .
